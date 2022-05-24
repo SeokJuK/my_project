@@ -1,0 +1,95 @@
+
+            .container{
+                border: 1px solid #2EA7E0;
+                float: right;
+                height: 150px;
+                width: 20%;
+                border-radius: 12px 12px 12px 12px;
+                background: white;
+                overflow: hidden;
+                padding-left: 30px;
+            }
+            .community{
+                width: 100%;
+                height: 20%;
+                margin-top: 20px;
+            }
+            .calender{
+                border: 1px solid #2EA7E0;
+                width: 62%;
+                height: 50%;
+                border-radius: 12px 12px 12px 12px;
+                margin-top: 30px;
+                background-color: white;
+                height: 300px;
+            }
+            .account {
+                 display: block;
+                 margin-bottom: 3px;
+                 padding: 3px;
+                 border: 1px solid rgb(238, 16, 16);
+                 border-radius: 3px;
+            }
+            #alert {
+                border-color: transparent;
+            }
+            .uptable{
+                width: 100%;
+            }
+            .centerpadding{
+                float: left;
+                height: 150px;
+                width: 30%;
+                margin-right: 30px;
+                margin-left: 30px;
+                border-radius: 12px 12px 12px 12px;
+                align-items:center;
+                display: flex;
+                justify-content:center;
+            }
+            .ask{
+                float: left;
+                border: 1px solid #2EA7E0;
+                margin-right: 20px;
+                background-color: white;
+                height: 150px;
+                width: 32%;
+                border-radius: 12px 12px 12px 12px;
+            }
+            .small{
+                border: 1px solid #2EA7E0;
+                float:right;
+                background-color:white;
+                width: 20%;
+                border-radius: 12px 12px 12px 12px;
+                height: 90%;
+                padding-left: 30px;
+            }
+            .clear{
+                clear: both;
+            }
+            .largecommu{
+                margin-top: 20px;
+                width: 62%;
+                height: 150px;
+                border-radius: 12px 12px 12px 12px;
+            }
+            .centerimage{
+                width: auto;
+                height: 90%;
+            }
+            .incontainer{
+                float: right;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            .incommu{
+                border: 1px solid #2EA7E0;
+                background-color: white;
+                height: 150px;
+                width: 100%;
+                border-radius: 12px 12px 12px 12px;
+            }
+            .box{
+                height: 70%;
+            }

@@ -2,111 +2,64 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML5 문서 구조 시맨틱 태그 사용</title>
+        <link rel="stylesheet" type="text/css" href="total.css">
+        <link rel="stylesheet" type="text/css" href="body.css">
+        <!--<link rel="stylesheet" type="text/css" href="calender.css">-->
+        <link rel="stylesheet" type="text/css" href="header.css">
         <style>
-            html, body {
-                 margin: 0;
-                padding: 0;
-                height: 100%
-            }
-            header {
-                width: 100%;
-                height: 15%;
-                background:
-            }
-            nav {
-                width: 15%;
-                height: 70%;
-                float: left;
-            }
-            section {
-                width: 70%;
-                height: 70%;
-                float: left;
-                background: olivedrab;
-            }
-            aside {
-                width: 15%;
-                height: 70%;
-                float: left;
-            }
-            footer {
-                width: 100%;
-                height: 10%;
-                clear: both;
-                background: plum;
-            }
-            .list{
-                width:100%;
-                height : 5%;
-                background: rgb(4, 240, 220);
-                display: flex;
-                align-items: center; /* 수직 정렬 */
-                flex-direction: row; /* default: row */
-                justify-content: center; /* flex direction에 대해서 정렬방식 선택 */}
-            .inlist1,.inlist2,.inlist3,.inlist4{
-                float: right;
-                margin-left: 10px;
-                width: 25%;
-                text-align: center;
-            }
-            .logo{
-                display: flex;
-        justify-content: center;
-                width: auto;
-                height: 100%;
-            }
-            .container{
-                border: 1px solid black;
-            }
-            .community{
-                width: 100%;
-                height: 50%
-            }
-            .calender{
-                width: 100%;
-                height: 50%;
-                margin-top: 5px;
-            }
-            .account {
-                 display: block;
-                 margin-bottom: 3px;
-                 padding: 3px;
-                 border: 1px solid lightgray;
-                 border-radius: 3px;
-}
-            #alert {
-                border-color: transparent;
-}
-
         </style>
     </head>
 
     <body>
-        <header><div class="logo"><img src="바탕화면.jpg" alt="넣고싶은 사진 삽입" width="12%" height="auto"></div></header>
+        <header><div class="logo"><h1>Hae Ya GYM</h1></div></header>
         <div class="list">
-            <div class="inlist1">목차1</div>
-            <div class="inlist2">목차2</div>
-            <div class="inlist3">목차3</div>
-            <div class="inlist4">목차4</div>
+            <div class="inlist">공지사항</div>
+            <div class="inlist">커뮤니티</div>
+            <div class="inlist">운동기록</div>
+            <div class="inlist">운동장소</div>
         </div>
-        <nav>nav</nav>
-        <section>
-            <div class="community">
-                여기에 커뮤니티
-            </div>
-            <div class="calender">
-                여기에 달력
-            </div>
-        </section>
-        <aside>
+        <div class="clear"></div>
+    <nav></nav>
+    <section>
+            <div class="community">       
+            <div class="ask"><a href="ask.html" target="blank">공지사항</a></div>   
+            <div class="centerpadding"><img class="centerimage" src="졸작로고.png"></div>
             <div class="container">
-                <input type="text" placeholder="ID" id="id" class="account">
-                <input type="password" placeholder="Password" id="password" class="account">
-                <button class="login" class="account">로그인</button>
-                <p id="alert" class="account"> </p>
+            <div class="incontainer">
+            <input type="text" placeholder="ID" id="id" class="account">
+            <input type="password" placeholder="Password" id="password" class="account">
+            <button class="login" class="account">로그인</button>
+            <button class="signup" class="new" onclick="window.open('signup.html')">회원가입</button>
+            <p id="alert" class="account"> </p>
             </div>
-        </aside>
+            </div>
+            </div>
+            <div class="clear"></div>
+            
+            <div class="box">
+                <div class="small">현재 내가 활동중인 커뮤니티</div>
+            <div class="largecommu">
+                <div class="incommu">
+                <a href="community.html">커뮤니티란</a>
+                </div>                  
+            </div>
+            
+                       
+            <!--달력란-->
+            <div class="calender">
+                <a href="calender.html">
+                    <iframe src="calender.html" title="내용" width="100%" height="100%"></iframe>
+                </a>
+                <script></script>
+            </div>
+            
+        </div>
+ 
+        </div>
+        </section>
+            
         <footer>footer</footer>
     </body>
     

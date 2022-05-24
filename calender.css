@@ -1,0 +1,27 @@
+ table {
+            clear: both;
+        }
+        th {
+            height: 50px;
+            width: 70px;
+            background-color:  #2EA7E0;
+        }
+        td {
+            text-align: center;
+            height: 50px;
+            width: 70px;
+            background-color: #ace3ff;  
+        }
+        input {
+            height: 50px;
+            width: 70px;
+            border: none;
+            background-color:  #b4d1e0;
+            font-size: 30px;
+        }
+        .year_mon{
+            font-size: 25px;
+        }
+        .colToday{
+            background-color: #ffffff;
+        }
